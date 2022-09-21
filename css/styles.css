@@ -413,11 +413,11 @@ body {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
+  transition: border-color var(--transition-dur-and-fanc), color var(--transition-dur-and-fanc);
 }
 
 .clients-list-icon {
   fill: currentColor;
-  transition: border-color var(--transition-dur-and-fanc), color var(--transition-dur-and-fanc);
 }
 
 .clients-list-link:hover,
